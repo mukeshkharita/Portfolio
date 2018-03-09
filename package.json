@@ -61,5 +61,9 @@
     "transform": [
       "babelify"
     ]
+  },
+  "engines": {
+    "node": "8.9.x",
+    "npm": "5.7.x"
   }
 }
