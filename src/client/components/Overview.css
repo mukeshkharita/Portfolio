@@ -1,0 +1,71 @@
+.container {
+	position: relative;
+	text-align: center;
+    color: white;
+    background-color: #2A3440;
+    font-family: 'Roboto';
+}
+
+.container img {
+	position: relative;
+	opacity: 0.1;
+}
+
+.nameContainer {
+	color: white;
+	position: absolute;
+	width: 100%;
+	top: 255px;
+}
+
+.name {
+	text-align: center;
+	font-size: 1.8em;
+	border: 2px solid #336699;
+	padding: 18px 40px;
+	font-weight: bold;
+	border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    text-transform: uppercase;
+    word-spacing: 6px;
+
+    @media(max-width: 800px) {
+    	font-size: 1em;
+    }
+}
+
+.positionContainer {
+	color: white;
+	position: absolute;
+	width: 100%;
+	top: 320px;
+}
+
+.position {
+	text-align: center;
+	font-size: 1em;
+}
+
+.imageContainer {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.linkContainer {
+	position: absolute;
+	width: 100%;
+	top: 355px;
+}
+
+.linkContainer i {
+	font-size: 24px;
+	margin-left: 10px;
+	color: white;
+}
+
+.linkContainer i:hover {
+	color: #336699;
+	cursor: pointer;
+}

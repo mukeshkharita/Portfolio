@@ -1,0 +1,33 @@
+.aboutContainer {
+	position: relative;
+	text-align: center;
+    background-color: white;
+    font-family: 'Roboto';
+}
+
+.me {
+	font-size: 1.5em;
+	color: #2A3440;
+	margin-top: 50px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.seperator {
+	width: 40px;
+	margin: 0 auto;
+	height: 2px;
+	background-color: #2A3440;
+}
+
+.content {
+	margin: 10px 50px;
+}
+
+.aboutContent {
+	font-size: 1.2em;
+	margin-top: 40px;
+	word-spacing: 5px;
+}
