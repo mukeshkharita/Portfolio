@@ -63,7 +63,7 @@ gulp.task('server', function() {
     connect.server({
         root: 'src/client/',
         port: LOCAL_SERVER_PORT,
-        livereload: true
+        livereload: true,
     });
 });
 
@@ -80,3 +80,4 @@ gulp.task('watch', () => {
 })
 
 gulp.task('default', ['server', 'watch'])
+gulp.task('buildWithRoot', ['server', 'build-prod'])

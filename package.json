@@ -2,7 +2,9 @@
   "name": "react_redux",
   "version": "1.0.0",
   "scripts": {
-    "start": "gulp build-prod"
+    "start": "gulp buildWithRoot",
+    "build": "gulp",
+    "watch": "gulp watch"
   },
   "dependencies": {
     "babel-eslint": "^8.2.2",
