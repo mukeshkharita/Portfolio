@@ -1,7 +1,9 @@
 {
   "name": "react_redux",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "start": "gulp build-prod"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.2",
     "babel-register": "^6.26.0",
