@@ -70,7 +70,7 @@ gulp.task('server', function() {
 gulp.task('buildServer', function() {
     connect.server({
         root: 'src/client/',
-        port: process.env.PORT,
+        port: process.env.PORT || 3000,
         livereload: false,
     });
 });
