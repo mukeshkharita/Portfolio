@@ -4,7 +4,7 @@
   "scripts": {
     "start": "gulp buildWithRoot",
     "build": "gulp",
-    "watch": "gulp watch"
+    "watch": "gulp"
   },
   "dependencies": {
     "babel-eslint": "^8.2.2",

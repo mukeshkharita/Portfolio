@@ -67,6 +67,14 @@ gulp.task('server', function() {
     });
 });
 
+gulp.task('buildServer', function() {
+    connect.server({
+        root: 'src/client/',
+        port: process.env.PORT || LOCAL_SERVER_PORT,
+        livereload: false,
+    });
+});
+
 gulp.task('build-prod', () => {
     sourceFiles.forEach(bundle => createBundle(bundle, {watch: false, production: true}))
 })
@@ -80,4 +88,4 @@ gulp.task('watch', () => {
 })
 
 gulp.task('default', ['server', 'watch'])
-gulp.task('buildWithRoot', ['server', 'build-prod'])
+gulp.task('buildWithRoot', ['buildServer', 'build-prod'])
