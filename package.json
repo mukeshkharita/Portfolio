@@ -2,7 +2,7 @@
   "name": "react_redux",
   "version": "1.0.0",
   "scripts": {
-    "start": "gulp buildWithRoot",
+    "start": "node node_modules/gulp/bin/gulp buildWithRoot",
     "build": "gulp",
     "watch": "gulp",
     "postinstall": "gulp build-prod"
@@ -67,5 +67,8 @@
     "transform": [
       "babelify"
     ]
-  }
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
 }
