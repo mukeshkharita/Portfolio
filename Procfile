@@ -1,1 +1,1 @@
-gulp buildWithRoot
+gulp build
