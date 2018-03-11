@@ -16,7 +16,7 @@ const sourceFiles = [
         entries: ['./src/client/main.jsx'],
         destination: './src/client/public/',
         cssOutput: 'bundle.css',
-        output: 'bundle.js'
+        output: 'bundle.js',
     },
 ]
 
@@ -45,7 +45,7 @@ function createBundle({entries, output, destination, cssOutput},
     }
 
     function bundle() {
-        let startTime = new Date().getTime()
+        const startTime = new Date().getTime()
         b.bundle()
             .on('error', error=>console.error(error.message))
             .pipe(source(output))
