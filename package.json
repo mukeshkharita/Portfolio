@@ -2,7 +2,7 @@
   "name": "react_redux",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run startServer",
+    "start": "gulp buildWithRoot",
     "build": "gulp",
     "watch": "gulp",
     "startServer": "gulp buildWithRoot",
