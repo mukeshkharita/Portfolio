@@ -4,7 +4,8 @@
   "scripts": {
     "start": "gulp buildWithRoot",
     "build": "gulp",
-    "watch": "gulp"
+    "watch": "gulp",
+    "postinstall": "gulp default",
   },
   "dependencies": {
     "babel-eslint": "^8.2.2",
