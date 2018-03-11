@@ -5,7 +5,7 @@
     "start": "gulp buildWithRoot",
     "build": "gulp",
     "watch": "gulp",
-    "postinstall": "gulp buildWithRoot"
+    "postinstall": "gulp build-prod"
   },
   "dependencies": {
     "babel-eslint": "^8.2.2",
