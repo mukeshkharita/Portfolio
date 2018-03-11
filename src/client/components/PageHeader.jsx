@@ -16,13 +16,13 @@ const PageHeader = () =>
 					About
 				</NavItem>
 				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
-					Education
+					Resume
 				</NavItem>
 				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
-					Experience
+					Achievements
 				</NavItem>
 				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
-					Project
+					Projects
 				</NavItem>
 				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
 					Contact

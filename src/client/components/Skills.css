@@ -1,0 +1,23 @@
+.skillsContainer {
+	background-color: white;
+	padding: 50px 0;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+.skillsText {
+	font-size: 1.5em;
+	color: #2A3440;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.seperator {
+	width: 40px;
+	margin: 10px auto;
+	height: 2px;
+	background-color: #2A3440;
+}

@@ -4,6 +4,7 @@
     color: white;
     background-color: #2A3440;
     font-family: 'Roboto';
+    overflow-x: hidden;
 }
 
 .container img {
@@ -39,6 +40,7 @@
 	position: absolute;
 	width: 100%;
 	top: 320px;
+	font-family: 'Montserrat';
 }
 
 .position {

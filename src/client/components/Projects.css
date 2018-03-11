@@ -1,0 +1,43 @@
+.projectsContainer {
+	background-color: #F4F4F4;
+	padding: 50px 50px;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+.projectsText {
+	font-size: 1.5em;
+	color: #2A3440;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.sepeartor {
+	width: 40px;
+	margin: 10px auto;
+	height: 2px;
+	background-color: #2A3440;
+}
+
+.projectContainer img {
+	padding: 25px !important;
+}
+
+.projectContainer div {
+	text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.projectContainer a {
+	border: none;
+	border-radius: 0;
+}
+
+.projectContainer a:hover {
+	text-decoration: none;
+}

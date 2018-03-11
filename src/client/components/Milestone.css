@@ -1,0 +1,46 @@
+.mileStoneContainer {
+	background-color: #98A1AA;
+	padding: 50px 0;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+.milestone {
+	font-size: 1.5em;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.achievementContainer {
+	text-align: center;
+}
+
+.achievement {
+	background-color: white;
+	color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 5% auto;
+}
+
+.achievementContainer i {
+	position: relative;
+    top: 30px;
+    font-size: 42px;
+	color: #E75152;
+}
+
+.achRow {
+	width: 80%;
+	margin: 2% auto 0 auto !important;
+}
+
+.name {
+	font-weight: 600;
+	color: white;
+}

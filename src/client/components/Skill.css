@@ -1,0 +1,32 @@
+.circleBackground,
+.circleProgress {
+	fill: none;
+}
+
+.circleBackground {
+	stroke: #DCDFE6;
+}
+
+.circleProgress {
+	stroke: #E75152;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.circleText {
+	font-size: 2em;
+	font-weight: bold;
+	fill: #2A3440;
+}
+
+.svgContainer {
+	width: 150px;
+	margin: 40px auto 0 auto;
+}
+
+.name {
+	color: #2A3440;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}

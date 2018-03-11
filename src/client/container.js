@@ -6,8 +6,15 @@ import { bindActionCreators } from 'redux'
 import * as actions from './actions'
 import * as selectors from './selectors'
 import About from './components/About'
-import PageHeader from './components/PageHeader'
+import Copyright from './components/Copyright'
+import Contacts from './components/Contacts'
+import Milestone from './components/Milestone'
 import Overview from './components/Overview'
+import PageHeader from './components/PageHeader'
+import Projects from './components/Projects'
+import Responsibities from './components/Responsibities'
+import Resume from './components/Resume'
+import Skills from './components/Skills'
 import Wrapper from './components/Wrapper'
 
 class MainContainer extends Component {
@@ -29,6 +36,13 @@ class MainContainer extends Component {
 				<PageHeader />
 				<Overview />
 				<About />
+				<Resume />
+				<Milestone />
+				<Skills />
+				<Projects />
+				<Responsibities />
+				<Contacts />
+				<Copyright />
 			</Wrapper>
 		)
 	}

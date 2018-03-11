@@ -1,0 +1,29 @@
+.responsibitiesContainer {
+	background-color: #98A1AA;
+	padding: 50px 50px;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+.responsibitityText {
+	font-size: 1.5em;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.heading {
+	font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2A3440;
+}
+
+.heading span {
+    font-weight: normal;
+    margin-left: 12px;
+    color: black;
+}
