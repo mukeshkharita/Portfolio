@@ -2,7 +2,7 @@
   "name": "react_redux",
   "version": "1.0.0",
   "scripts": {
-    "start": "node node_modules/gulp/bin/gulp buildWithRoot",
+    "start": "node buildWithRoot",
     "build": "gulp",
     "watch": "gulp",
     "postinstall": "gulp build-prod"
