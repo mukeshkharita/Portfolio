@@ -40,7 +40,9 @@ const About = () =>
 								<b>Email:</b>
 							</Col>
 							<Col xs={8}>
-								mukeshnithcse@gmail.com
+								<a href="mailto:mukeshnithcse@gmail.com" target="_blank">
+									mukeshnithcse@gmail.com
+								</a>
 							</Col>
 						</Row>
 						<Row>
@@ -48,7 +50,9 @@ const About = () =>
 								<b>Website:</b>
 							</Col>
 							<Col xs={8}>
-								mukeshkharita.github.io
+								<a href="http://mukeshkharita.github.io" target="_blank">
+									mukeshkharita.github.io
+								</a>
 							</Col>
 						</Row>
 						<Row>
@@ -56,11 +60,13 @@ const About = () =>
 								<b>Address:</b>
 							</Col>
 							<Col xs={8}>
-								NIT Hamirpur
+								<a href="http://nith.ac.in" target="_blank">
+									NIT Hamirpur
+								</a>
 							</Col>
 						</Row>
 						<Row className={localStyles.downloadRow}>
-							<a className={localStyles.download} href="" target="_blank"><i className="fa fa-download"> </i>
+							<a className={localStyles.download} href="/pdf/resume.pdf" target="_blank"><i className="fa fa-download"> </i>
 								<span className={localStyles.downloadText}>
 									Download Resume
 								</span>

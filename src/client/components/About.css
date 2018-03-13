@@ -2,8 +2,8 @@
 	position: relative;
     background-color: white;
 	font-family: 'Montserrat';
-	margin-bottom: 50px;
-	margin-top: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .me {
@@ -110,4 +110,15 @@
 
 .address {
 	
+}
+
+.personalInfo a {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+.personalInfo a:hover {
+	text-decoration: none;
+	color: black;
 }

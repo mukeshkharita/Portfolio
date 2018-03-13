@@ -6,6 +6,9 @@ const Overview = () =>
 		<div className={localStyles.imageContainer}>
 			<img src="/img/bg.jpg" />
 		</div>
+		<div className={localStyles.personalImageContainer}>
+			<img src="/img/personal2.jpg" />
+		</div>
 		<div className={localStyles.nameContainer}>
 			<span className={localStyles.name}>Mukesh Kumar Kharita</span>
 		</div>

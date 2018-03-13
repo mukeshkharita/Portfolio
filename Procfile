@@ -1,1 +1,1 @@
-web: node node_modules/gulp/bin/gulp buildWithRoot
+web: npm start

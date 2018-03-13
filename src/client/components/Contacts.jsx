@@ -5,7 +5,7 @@ import Contact from './Contact'
 import localStyles from './Contacts.css'
 
 const Contacts = () =>
-	<div className={localStyles.contactsContainer}>
+	<div className={localStyles.contactsContainer} id="contact">
 		<div className={localStyles.contactText}>
 			Contacts
 		</div>
@@ -21,7 +21,9 @@ const Contacts = () =>
 				type={'Email'}
 				icon={"envelope"}
 				line1={"mukeshnithcse@gmail.com"}
-				line2={"mukeshkharita.github.io"}
+				line2={"http://mukeshkharita.github.io"}
+				link1
+				link2
 			/>
 			<Contact
 				type={'Phone'}

@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import localStyles from './Resume.css'
 
 const Resume = () =>
-	<div className={localStyles.resumeContainer}>
+	<div className={localStyles.resumeContainer} id="resume">
 		<div className={localStyles.resume}>
 			Resume
 		</div>

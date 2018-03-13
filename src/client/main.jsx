@@ -20,19 +20,21 @@ const Container = MainContainer.container
 // Render the UI to the screen
 ReactDOM.render(
     <Provider store={store}>
-    	<HashRouter>
-    		<div className="main">
+        <HashRouter>
+            <div className="main">
                 {ReduxDevTools && <ReduxDevTools />}
 				<Switch>
 					<Route exact path="/" component={Container} />
 					<Route path="/about" component={Container} />
-					<Route path="/events" component={Container} />
-					<Route path="/products" component={Container} />
-					<Route path="/contact" component={Container} />
+					<Route path="/resume" component={Container} />
+					<Route path="/achievements" component={Container} />
+					<Route path="/projects" component={Container} />
+                    <Route path="/skills" component={Container} />
+                    <Route path="/contact" component={Container} />
 					<Route component={PageNotFound} />
 				</Switch>
 			</div>
-    	</HashRouter>
+        </HashRouter>
     </Provider>,
     document.getElementById('app')
 )

@@ -5,7 +5,7 @@ import localStyles from './Skills.css'
 import Skill from './Skill'
 
 const Skills = () =>
-	<div className={localStyles.skillsContainer}>
+	<div className={localStyles.skillsContainer} id="skills">
 		<div className={localStyles.skillsText}>
 			Skills
 		</div>

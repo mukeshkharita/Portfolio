@@ -15,16 +15,19 @@ const PageHeader = () =>
 				<NavItem eventKey={1} href="#about" className={localStyles.navItem}>
 					About
 				</NavItem>
-				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
+				<NavItem eventKey={2} href="#resume" className={localStyles.navItem}>
 					Resume
 				</NavItem>
-				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
+				<NavItem eventKey={2} href="#achievements" className={localStyles.navItem}>
 					Achievements
 				</NavItem>
-				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
+				<NavItem eventKey={2} href="#skills" className={localStyles.navItem}>
+					Skills
+				</NavItem>
+				<NavItem eventKey={2} href="#projects" className={localStyles.navItem}>
 					Projects
 				</NavItem>
-				<NavItem eventKey={2} href="#" className={localStyles.navItem}>
+				<NavItem eventKey={2} href="#contact" className={localStyles.navItem}>
 					Contact
 				</NavItem>
 			</Nav>

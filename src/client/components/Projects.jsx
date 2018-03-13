@@ -5,7 +5,7 @@ import localStyles from './Projects.css'
 import Project from './Project'
 
 const Projects = () =>
-	<div className={localStyles.projectsContainer}>
+	<div className={localStyles.projectsContainer} id="projects">
 		<div className={localStyles.projectsText}>
 			Projects
 		</div>
