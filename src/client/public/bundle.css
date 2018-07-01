@@ -1,4 +1,86 @@
-._src_client_components_About__aboutContainer {
+._src_client_components_Contacts__contactsContainer {
+	background-color: white;
+	padding: 50px 50px;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+._src_client_components_Contacts__contactText {
+	font-size: 1.5em;
+	color: #2A3440;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+._src_client_components_Contacts__seperator {
+	width: 40px;
+	margin: 10px auto;
+	height: 2px;
+	background-color: #2A3440;
+}
+
+._src_client_components_Contacts__contacts {
+	width: 80%;
+	margin: 20px auto 0 auto !important;
+}
+
+@media (max-width: 768px) {
+
+	._src_client_components_Contacts__contacts {
+		width: 100%;
+	}
+}
+
+._src_client_components_Contacts__addIcon {
+	background-color: #E65152;
+	color: white;
+	height: 80px;
+	width: 80px;
+	margin: 5% auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+._src_client_components_Contacts__addIcon i {
+	position: relative;
+    top: 18px;
+    font-size: 42px;
+    color: white;
+}
+
+._src_client_components_Contacts__address {
+	margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #2A3440;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: black;
+}
+
+._src_client_components_Contacts__addressContainer {
+	text-align: center;
+}
+
+._src_client_components_Contacts__addressContainer a {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+._src_client_components_Contacts__addressContainer a:hover {
+	text-decoration: none;
+	font-weight: 500;
+}._src_client_components_Copyright__copyrightContainer {
+	background-color: #F4F4F4;
+	padding: 20px 50px 5px 50px;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+	text-align: center;
+}._src_client_components_About__aboutContainer {
 	position: relative;
     background-color: white;
 	font-family: 'Montserrat';
@@ -30,7 +112,7 @@
 @media (max-width: 768px) {
 
 	._src_client_components_About__content {
-		margin: 10px 10px;
+		margin: 10px 40px;
 	}
 }
 
@@ -124,169 +206,6 @@
 ._src_client_components_About__personalInfo a:hover {
 	text-decoration: none;
 	color: black;
-}._src_client_components_Copyright__copyrightContainer {
-	background-color: #F4F4F4;
-	padding: 20px 50px 5px 50px;
-	font-family: 'Montserrat';
-	overflow-x: hidden;
-	text-align: center;
-}._src_client_components_Milestone__mileStoneContainer {
-	background-color: #98A1AA;
-	padding: 50px 0;
-	font-family: 'Montserrat';
-	overflow-x: hidden;
-}
-
-._src_client_components_Milestone__milestone {
-	font-size: 1.5em;
-	color: white;
-	font-weight: 700;
-	letter-spacing: 1px;
-	padding-bottom: 5px;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-._src_client_components_Milestone__achievementContainer {
-	text-align: center;
-}
-
-._src_client_components_Milestone__achievement {
-	background-color: white;
-	color: white;
-	height: 100px;
-	width: 100px;
-	border-radius: 50%;
-	margin: 5% auto;
-}
-
-._src_client_components_Milestone__achievementContainer i {
-	position: relative;
-    top: 30px;
-    font-size: 42px;
-	color: #E75152;
-}
-
-._src_client_components_Milestone__achRow {
-	width: 80%;
-	margin: 2% auto 0 auto !important;
-}
-
-._src_client_components_Milestone__name {
-	font-weight: 600;
-	color: white;
-}._src_client_components_Contacts__contactsContainer {
-	background-color: white;
-	padding: 50px 50px;
-	font-family: 'Montserrat';
-	overflow-x: hidden;
-}
-
-._src_client_components_Contacts__contactText {
-	font-size: 1.5em;
-	color: #2A3440;
-	font-weight: bold;
-	letter-spacing: 1px;
-	padding-bottom: 5px;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-._src_client_components_Contacts__seperator {
-	width: 40px;
-	margin: 10px auto;
-	height: 2px;
-	background-color: #2A3440;
-}
-
-._src_client_components_Contacts__contacts {
-	width: 80%;
-	margin: 20px auto 0 auto !important;
-}
-
-@media (max-width: 768px) {
-
-	._src_client_components_Contacts__contacts {
-		width: 100%;
-	}
-}
-
-._src_client_components_Contacts__addIcon {
-	background-color: #E65152;
-	color: white;
-	height: 80px;
-	width: 80px;
-	margin: 5% auto;
-	text-align: center;
-	border-radius: 10px;
-}
-
-._src_client_components_Contacts__addIcon i {
-	position: relative;
-    top: 18px;
-    font-size: 42px;
-    color: white;
-}
-
-._src_client_components_Contacts__address {
-	margin-top: 10px;
-    font-weight: bold;
-    font-size: 1.2em;
-    color: #2A3440;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-    color: black;
-}
-
-._src_client_components_Contacts__addressContainer {
-	text-align: center;
-}
-
-._src_client_components_Contacts__addressContainer a {
-	text-decoration: none;
-	cursor: pointer;
-	color: black;
-}
-
-._src_client_components_Contacts__addressContainer a:hover {
-	text-decoration: none;
-	font-weight: 500;
-}._src_client_components_PageHeader__navBar {
-	background-color: #336699 !important;
-	border-radius: 0 !important;
-	text-align: center;
-	font-family: 'Roboto' !important;
-	border-bottom: 0px solid #336699 !important;
-	margin-bottom: 0 !important;
-}
-
-@media (max-width: 768px) {
-
-	._src_client_components_PageHeader__navBar {
-		border-bottom: 2px solid white !important;
-	}
-}
-
-._src_client_components_PageHeader__navBar a {
-	color: white !important;
-	cursor: pointer;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-
-@media (max-width: 1000px) {
-
-	._src_client_components_PageHeader__navBar a {
-		font-size: 1em;
-	}
-}
-
-._src_client_components_PageHeader__navBar li {
-	border-bottom: 2px solid #336699;
-}
-
-._src_client_components_PageHeader__navBar li:hover {
-	border-bottom: 2px solid white;
 }._src_client_components_Overview__container {
 	position: relative;
 	text-align: center;
@@ -373,6 +292,107 @@
 ._src_client_components_Overview__personalImageContainer img {
 	width: 200px;
     border-radius: 50%;
+}._src_client_components_PageHeader__navBar {
+	background-color: #336699 !important;
+	border-radius: 0 !important;
+	text-align: center;
+	font-family: 'Roboto' !important;
+	border-bottom: 0px solid #336699 !important;
+	margin-bottom: 0 !important;
+}
+
+._src_client_components_PageHeader__navBar a {
+	color: white !important;
+	cursor: pointer;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+
+	._src_client_components_PageHeader__navBar a {
+		font-size: 1em;
+	}
+}
+
+._src_client_components_PageHeader__navBar li {
+	border-bottom: 2px solid #336699;
+}
+
+._src_client_components_PageHeader__navBar li:hover {
+	border-bottom: 2px solid white;
+}._src_client_components_Milestone__mileStoneContainer {
+	background-color: #98A1AA;
+	padding: 50px 0;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+._src_client_components_Milestone__milestone {
+	font-size: 1.5em;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+._src_client_components_Milestone__achievementContainer {
+	text-align: center;
+}
+
+._src_client_components_Milestone__achievement {
+	background-color: white;
+	color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 5% auto;
+}
+
+._src_client_components_Milestone__achievementContainer i {
+	position: relative;
+    top: 30px;
+    font-size: 42px;
+	color: #E75152;
+}
+
+._src_client_components_Milestone__achRow {
+	width: 80%;
+	margin: 2% auto 0 auto !important;
+}
+
+._src_client_components_Milestone__name {
+	font-weight: 600;
+	color: white;
+}._src_client_components_Responsibities__responsibitiesContainer {
+	background-color: #98A1AA;
+	padding: 50px 50px;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+._src_client_components_Responsibities__responsibitityText {
+	font-size: 1.5em;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+._src_client_components_Responsibities__heading {
+	font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2A3440;
+}
+
+._src_client_components_Responsibities__heading span {
+    font-weight: normal;
+    color: black;
 }._src_client_components_Projects__projectsContainer {
 	background-color: #F4F4F4;
 	padding: 50px 50px;
@@ -415,34 +435,6 @@
 
 ._src_client_components_Projects__projectContainer a:hover {
 	text-decoration: none;
-}._src_client_components_Responsibities__responsibitiesContainer {
-	background-color: #98A1AA;
-	padding: 50px 50px;
-	font-family: 'Montserrat';
-	overflow-x: hidden;
-}
-
-._src_client_components_Responsibities__responsibitityText {
-	font-size: 1.5em;
-	color: white;
-	font-weight: 700;
-	letter-spacing: 1px;
-	padding-bottom: 5px;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-._src_client_components_Responsibities__heading {
-	font-size: 1em;
-    font-weight: bold;
-    margin-top: 20px;
-    color: #2A3440;
-}
-
-._src_client_components_Responsibities__heading span {
-    font-weight: normal;
-    margin-left: 12px;
-    color: black;
 }._src_client_components_Resume__resumeContainer {
 	background-color: #F4F4F4;
 	padding: 50px 0;

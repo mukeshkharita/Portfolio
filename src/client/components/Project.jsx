@@ -7,7 +7,7 @@ import localStyles from './Projects.css'
 const Project = ({image, name, link}) =>
 	<Col sm={4} xs={12}>
 		<div className={localStyles.projectContainer}>
-			<Thumbnail href={link? link: '#'} alt="171x180" src={"/img/"+ image}>
+			<Thumbnail href={link? link: '#'} alt="171x180" src={"/img/"+ image} target="_blank">
 				{name}
 			</Thumbnail>
 		</div>

@@ -12,36 +12,36 @@ const Skills = () =>
 		<div className={localStyles.seperator}/>
 		<Row>
 			<Skill
-				percentage={80}
+				percentage={85}
+				name={"JavaScript (React)"}
+			/>
+			<Skill
+				percentage={85}
 				name={"HTML5/CSS3"}
 			/>
 			<Skill
-				percentage={70}
-				name={"JavaScript"}
+				percentage={80}
+				name={"TypeScript"}
 			/>
 			<Skill
-				percentage={60}
-				name={"C"}
+				percentage={75}
+				name={"Node.js (Express)"}
 			/>
 			<Skill
 				percentage={50}
 				name={"C"}
 			/>
 			<Skill
-				percentage={40}
-				name={"C"}
+				percentage={50}
+				name={"C++"}
 			/>
 			<Skill
-				percentage={30}
-				name={"C"}
+				percentage={50}
+				name={"Pyton (Flask)"}
 			/>
 			<Skill
-				percentage={20}
-				name={"C"}
-			/>
-			<Skill
-				percentage={10}
-				name={"C"}
+				percentage={50}
+				name={"PHP (CodeIgniter)"}
 			/>
 		</Row>
 	</div>

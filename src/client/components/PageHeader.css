@@ -5,10 +5,6 @@
 	font-family: 'Roboto' !important;
 	border-bottom: 0px solid #336699 !important;
 	margin-bottom: 0 !important;
-
-	@media(max-width: 768px) {
-		border-bottom: 2px solid white !important;
-	}
 }
 
 .navBar a {

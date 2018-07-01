@@ -19,10 +19,11 @@ const Projects = () =>
 			<Project
 				image={'NIMBUS.png'}
 				name={'NIMBUS 2017 Website'}
+				link={'http://festnimbus.com/'}
 			/>
 			<Project
 				image={'Agr.png'}
-				name={'Agricultural Andoird App'}
+				name={'Agricultural Android App'}
 				link={'https://github.com/mukeshkharita/AgriculturalApp'}
 			/>
 			<Project
@@ -32,8 +33,8 @@ const Projects = () =>
 			/>
 			<Project
 				image={'me.png'}
-				name={'Portpolio'}
-				link={'https://github.com/mukeshkharita/Portpolio'}
+				name={'Portfolio'}
+				link={'https://github.com/mukeshkharita/Portfolio'}
 			/>
 		</Row>
 	</div>

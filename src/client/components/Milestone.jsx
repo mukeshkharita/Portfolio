@@ -11,28 +11,32 @@ const Milestone = () =>
 		</div>
 		<Row className={localStyles.achRow}>
 			<Achievement
-				icon="trophy"
-				name="Achievement"
+				icon="google"
+				name="Google Summer of Code 2018"
+			/>
+			<Achievement
+				icon="code"
+				name="Code Swap Runner up"
 			/>
 			<Achievement
 				icon="trophy"
-				name="Achievement"
+				name="Hackathon Runner up"
 			/>
 			<Achievement
-				icon="trophy"
-				name="Achievement"
+				icon="code"
+				name="51 Rank in September Long Challenge"
 			/>
 			<Achievement
-				icon="trophy"
-				name="Achievement"
+				icon="code"
+				name="3rd Rank in hackerearth Challenge"
 			/>
 			<Achievement
-				icon="trophy"
-				name="Achievement"
+				icon="code"
+				name="125+ Question solved on Hackerearth"
 			/>
 			<Achievement
-				icon="trophy"
-				name="Achievement"
+				icon="code"
+				name="75+ Questions solved on Spoj"
 			/>
 		</Row>
 	</div>
