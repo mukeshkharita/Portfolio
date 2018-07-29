@@ -8,6 +8,8 @@ import connect from 'gulp-connect'
 import livereload from 'gulp-livereload'
 import cssModulesify from 'css-modulesify'
 import cssnext from 'postcss-cssnext'
+import composeUglify from 'gulp-uglify/composer'
+import streamify from 'gulp-streamify'
 
 const LOCAL_SERVER_PORT = 4000
 
@@ -25,6 +27,8 @@ const browserifySettings = {
     extensions: ['.jsx', '.css'],
     paths: ['.'],
 }
+
+const uglify = composeUglify(require('uglify-es'), console)
 
 function createBundle({entries, output, destination, cssOutput},
                       {watch=false, production=false}) {
@@ -49,6 +53,11 @@ function createBundle({entries, output, destination, cssOutput},
         b.bundle()
             .on('error', error=>console.error(error.message))
             .pipe(source(output))
+            .pipe(
+                streamify(uglify({
+                            output: { ascii_only: true },
+                        }))
+            )
             .pipe(gulp.dest(destination))
             .on('end', () => {
                 let time = (new Date().getTime() - startTime) / 1000
