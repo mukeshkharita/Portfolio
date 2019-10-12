@@ -33,4 +33,4 @@ export default function configureStore({ReduxDevTools=undefined}={}) {
   )
 
   return store
-}
+} 
