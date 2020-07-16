@@ -29,7 +29,7 @@
     "gulp-stylelint": "^7.0.0",
     "gulp-zip": "^4.1.0",
     "install": "^0.10.4",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "page-metadata-parser": "^1.1.2",
     "postcss-cssnext": "^3.1.0",
     "prop-types": "^15.6.1",
