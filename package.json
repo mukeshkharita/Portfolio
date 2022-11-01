@@ -53,7 +53,7 @@
     "babel-core": "^6.26.0",
     "babelify": "^8.0.0",
     "browserify": "^16.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-connect": "^5.5.0",
     "gulp-identity": "^0.1.0",
     "gulp-run": "^1.7.1",
