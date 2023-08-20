@@ -25,12 +25,6 @@ const Contacts = () =>
 				link1
 				link2
 			/>
-			<Contact
-				type={'Phone'}
-				icon={"phone"}
-				line1={"+91 9805075215"}
-				line2={"+91 7018595368"}
-			/>
 		</Row>
 	</div>
 
